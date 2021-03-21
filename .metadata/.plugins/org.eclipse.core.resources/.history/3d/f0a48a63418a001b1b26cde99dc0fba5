@@ -1,0 +1,8 @@
+
+public abstract class AuthenticationHandler {
+	
+	public void handelRequest(String requestType) {
+		
+	}
+
+}

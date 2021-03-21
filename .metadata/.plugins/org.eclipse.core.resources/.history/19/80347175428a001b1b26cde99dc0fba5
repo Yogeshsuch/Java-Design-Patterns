@@ -1,0 +1,8 @@
+
+public class DigestAuthenticationHandler extends AuthenticationHandler {
+
+	public DigestAuthenticationHandler(AuthenticationHandler authType) {
+		super(authType);
+	}
+
+}

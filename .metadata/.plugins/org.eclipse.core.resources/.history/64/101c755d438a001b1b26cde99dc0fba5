@@ -1,0 +1,16 @@
+
+public abstract class AuthenticationHandler {
+	
+	public AuthenticationHandler authType;
+	
+	public AuthenticationHandler(AuthenticationHandler authType) {
+		this.authType = authType;
+	}
+	
+	public void handelRequest(String requestType) {
+		if(next != null) {
+			this.authType.handelRequest(requestType);
+		}
+	}
+
+}

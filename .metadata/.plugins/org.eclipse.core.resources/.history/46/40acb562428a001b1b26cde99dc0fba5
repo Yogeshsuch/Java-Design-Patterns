@@ -1,0 +1,9 @@
+
+public class ClientCertificateAuthenticationHandler extends AuthenticationHandler {
+
+	public ClientCertificateAuthenticationHandler(AuthenticationHandler authType) {
+		super(authType);
+		// TODO Auto-generated constructor stub
+	}
+
+}

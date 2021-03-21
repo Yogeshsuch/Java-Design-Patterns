@@ -1,0 +1,12 @@
+
+public abstract class AuthenticationHandler {
+	
+	public AuthenticationHandler() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void handelRequest(String requestType) {
+		
+	}
+
+}
