@@ -5,8 +5,9 @@ public class Client {
 		
 		AuthenticationHandler chain = new BasicAuthenticationHandler(new DigestAuthenticationHandler(new ClientCertificateAuthenticationHandler(null)));
 		
-		chain.handelRequest("BasicAuth");
 		chain.handelRequest("DigestAuth");
+		chain.handelRequest("BasicAuth");
+		
 	}
 
 }
